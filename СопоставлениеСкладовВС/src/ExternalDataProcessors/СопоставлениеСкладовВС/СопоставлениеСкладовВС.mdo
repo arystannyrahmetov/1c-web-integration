@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1db14e0-f015-4e6e-980e-efe5b9d78d10">
+  <producedTypes>
+    <objectType typeId="e1c2dcc7-44c5-4605-ae06-04eda6fb39d6" valueTypeId="fc763ec0-0d52-4029-858f-488b25524ef3"/>
+  </producedTypes>
+  <name>СопоставлениеСкладовВС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сопоставление складов ВС</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="bebbf32d-73bd-4a15-9a8e-1e888d7833ed"/>
+  <defaultForm>ExternalDataProcessor.СопоставлениеСкладовВС.Form.Форма</defaultForm>
+  <attributes uuid="d767ae62-dbd5-4d33-a56d-8c1186d5e36b">
+    <name>ВиртуальныйСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виртуальный склад</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ec5d4e3f-6b71-425b-8f00-29eab80f0ca1">
+    <name>РегистОстатков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регист остатков</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="40748124-e00d-43d9-a2f9-737bdf6a0fa8">
+    <producedTypes>
+      <objectType typeId="0e99a141-cb9b-42d7-a7f1-60627dc81f0b" valueTypeId="bdb0611e-8f9d-4311-8dae-5db7283ac331"/>
+      <rowType typeId="5417cae0-57d1-4a5e-ba85-f3789d3f5b86" valueTypeId="2a8ce7b5-390b-4bfc-999e-bda804623408"/>
+    </producedTypes>
+    <name>СопоставлениеСкладов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление складов</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="be25f552-785c-445d-bfa4-1627375c298b">
+      <name>Склад</name>
+      <synonym>
+        <key>ru</key>
+        <value>Склад</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="a37c2c72-ddc3-4e79-81eb-6ed5acf9e6a4">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="a283f26f-a1df-4c0f-a635-c3afb8716535">
+      <name>ВиртуальныйСклад</name>
+      <synonym>
+        <key>ru</key>
+        <value>Виртуальный склад</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="dd134007-d2c4-422e-ac2e-f16b97ca0170">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
