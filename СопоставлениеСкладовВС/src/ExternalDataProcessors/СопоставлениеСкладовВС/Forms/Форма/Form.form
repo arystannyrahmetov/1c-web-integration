@@ -605,6 +605,10 @@
     <items xsi:type="form:Button">
       <name>ОчиститьРегистрСоответствий</name>
       <id>42</id>
+      <title>
+        <key>en</key>
+        <value>Очистить регистр соответствий</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -644,6 +648,10 @@
     <items xsi:type="form:Button">
       <name>ЗаполнитьСклады</name>
       <id>40</id>
+      <title>
+        <key>en</key>
+        <value>Заполнить склады</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
